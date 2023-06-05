@@ -1,20 +1,10 @@
-
-import './App.css';
-import Logo from './components/Logo';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-       <Logo></Logo>
-       <ul className='opcoes'>
-        <li>
-          <p>CATEGORIAS</p>
-          <p>MINHA ESTANTE</p>
-          <p>FAVORITOS</p>
-        </li>
-       </ul>
-      </header>
+    <div className="App">
+      <Header />
     </div>
   );
 }
